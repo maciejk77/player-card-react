@@ -4,7 +4,8 @@
 
 This app creates a React component which renders to the screen a list of players with associated data e.g. player information, player statistics, club badge, player image. Clubs are being fetch from image sprite via CSS classes with x/y coordinates. Player images are static assets with names matching the unique IDs on player data JSON. Data JSON file provides complete information to feed the component.
 
-The will import data via native fetch, axios or with Redux and Express.js endpoint - tbc.
+This app was rewritten from scratch to use minimal set up of **create-react-app**
+[***Earlier version of that app***](https://github.com/maciejk77/player-card/tree/version-B)
 
 ### Instruction
 - ```git clone``` the project repo
@@ -15,9 +16,11 @@ The will import data via native fetch, axios or with Redux and Express.js endpoi
 - used functional and class React components, lifecycle method ***componentDidMount*** as well 
 - used ***create-react-app** to scaffold application
 - used ***node-sass-chokidar*** to transpile Sass to CSS on build, ***watch-css*** to transpile while developing
+- images fetched from assets folder using template strings 
+- club badges are created from image sprite and accessible via CSS classess e.g. ```.arsenal {}```
 
 ### To do / ideas
-- complete app
+- create seperate branches where data will be put on Express, use Redux to manage state.
 
 ### Screenshot
 [***Click here to see Player Card app live***](https://google.com/)
