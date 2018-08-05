@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SearchBar from './components/search_bar';
+import DropDown from './components/dropdown';
 import PlayerStats from './components/player_stats';
 import { players } from './data/data.json';
 
@@ -12,7 +12,7 @@ class App extends Component {
 
     return (
       <div>
-        <SearchBar data={players} />
+        <DropDown data={players} />
         <PlayerStats data={players[0]}/>
       </div>
     );
