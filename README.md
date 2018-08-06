@@ -23,5 +23,5 @@ This app was rewritten from scratch to use minimal set up of **create-react-app*
 - create seperate branches where data will be put on Express, use Redux to manage state.
 
 ### Screenshot
-[***Click here to see Player Card app live***](https://google.com/)
+Left image is the requested final piece, to the right is the component recreated as requested
 ![Screenshot](public/screenshot.png)
