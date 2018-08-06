@@ -17,6 +17,7 @@ This app was rewritten from scratch from the [***earlier version***](https://git
 - used ***node-sass-chokidar*** to transpile Sass to CSS on build, ***watch-css*** to transpile while developing
 - images fetched from assets folder using template strings ```e.g. id:4916 => p${id}.png```
 - club badges are created from image sprite and accessible via CSS classess e.g. ```.arsenal {}```
+- used ***.filter***, ***.map***, to get matching player data, ***.reduce*** to remap stats object 
 
 ### To do / ideas
 - create seperate branches where data will be put on Express, use Redux to manage state.
