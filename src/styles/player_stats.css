@@ -13,8 +13,8 @@ body {
     position: relative;
     width: 7rem;
     padding: .5rem;
-    border: 1px solid red;
-    display: none; }
+    align-self: flex-end;
+    bottom: -4rem; }
 
 .info {
   background-color: #E90053;
@@ -44,3 +44,6 @@ body {
     padding: .75rem 1rem; }
   .stats__item-data {
     font-weight: bold; }
+
+.wrapper {
+  display: flex; }
