@@ -4,7 +4,7 @@
 
 This app creates a React component which renders to the screen a list of players with associated data e.g. player information, player statistics, club badge, player image. Club badges are being fetched from image sprite via CSS classes with x/y coordinates. Player images are static assets with names matching the unique IDs on player data JSON. Data JSON file provides complete information to feed the component.
 
-This app was rewritten from scratch from the [***earlier version***](https://github.com/maciejk77/player-card/tree/version-B) to use minimal set up of **create-react-app**
+This app was rewritten from scratch from the [***earlier version***](https://github.com/maciejk77/player-card/tree/version-B) to use minimal set up of **create-react-app**, Sass, cleaner/more compact code, ES6 destructuring, Flex.
 
 ### Instruction
 - ```git clone``` the project repo
@@ -22,6 +22,7 @@ This app was rewritten from scratch from the [***earlier version***](https://git
 - create seperate branches where data will be put on Express, use Redux to manage state.
 - fix custom 'chevron down' and menu on select
 - try to add the gray custom shapes as per requested output below (behind player image)
+- try to add some tests
 
 ### Screenshot
 Left image is the requested final piece, to the right is the component recreated as requested
