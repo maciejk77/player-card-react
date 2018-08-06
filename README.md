@@ -27,7 +27,7 @@ This app was rewritten from scratch from the [***earlier version***](https://git
 
 ### Screenshot
 
-The below live version is [***available here***](https://player-card-react.herokuapp.com/) deployed to Heroku 
+The below [***live version is available here***](https://player-card-react.herokuapp.com/) deployed to Heroku 
 
 Left image is the requested final piece, to the right is the component recreated as requested
 ![Screenshot](public/screenshot.png)
