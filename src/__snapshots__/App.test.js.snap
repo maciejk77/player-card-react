@@ -1,0 +1,1355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders an <App /> component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <DropDown
+        data={
+                Array [
+                        Object {
+                          "player": Object {
+                            "age": "27 years 139 days",
+                            "currentTeam": Object {
+                              "id": 21,
+                              "name": "Tottenham Hotspur",
+                              "shortName": "Spurs",
+                              "teamType": "FIRST",
+                            },
+                            "id": 4916,
+                            "info": Object {
+                              "position": "D",
+                              "positionInfo": "Centre/Right Central Defender",
+                              "shirtNum": 4,
+                            },
+                            "name": Object {
+                              "first": "Toby",
+                              "last": "Alderweireld",
+                            },
+                            "nationalTeam": Object {
+                              "country": "Belgium",
+                              "demonym": "Belgian",
+                              "isoCode": "BE",
+                            },
+                          },
+                          "stats": Array [
+                            Object {
+                              "name": "goals",
+                              "value": 5,
+                            },
+                            Object {
+                              "name": "losses",
+                              "value": 20,
+                            },
+                            Object {
+                              "name": "wins",
+                              "value": 48,
+                            },
+                            Object {
+                              "name": "draws",
+                              "value": 23,
+                            },
+                            Object {
+                              "name": "fwd_pass",
+                              "value": 1533,
+                            },
+                            Object {
+                              "name": "goal_assist",
+                              "value": 2,
+                            },
+                            Object {
+                              "name": "appearances",
+                              "value": 80,
+                            },
+                            Object {
+                              "name": "mins_played",
+                              "value": 6953,
+                            },
+                            Object {
+                              "name": "backward_pass",
+                              "value": 308,
+                            },
+                          ],
+                        },
+                        Object {
+                          "player": Object {
+                            "age": "33 years 67 days",
+                            "currentTeam": Object {
+                              "id": 11,
+                              "name": "Manchester City",
+                              "shortName": "Man City",
+                              "teamType": "FIRST",
+                            },
+                            "id": 4148,
+                            "info": Object {
+                              "position": "M",
+                              "positionInfo": "Centre Defensive Midfielder",
+                              "shirtNum": 42,
+                            },
+                            "name": Object {
+                              "first": "Yaya",
+                              "last": "Touré",
+                            },
+                            "nationalTeam": Object {
+                              "country": "Cote D'Ivoire",
+                              "demonym": "Ivorian",
+                              "isoCode": "CI",
+                            },
+                          },
+                          "stats": Array [
+                            Object {
+                              "name": "goals",
+                              "value": 65,
+                            },
+                            Object {
+                              "name": "losses",
+                              "value": 49,
+                            },
+                            Object {
+                              "name": "wins",
+                              "value": 149,
+                            },
+                            Object {
+                              "name": "draws",
+                              "value": 35,
+                            },
+                            Object {
+                              "name": "fwd_pass",
+                              "value": 4491,
+                            },
+                            Object {
+                              "name": "goal_assist",
+                              "value": 35,
+                            },
+                            Object {
+                              "name": "appearances",
+                              "value": 232,
+                            },
+                            Object {
+                              "name": "mins_played",
+                              "value": 18919,
+                            },
+                            Object {
+                              "name": "backward_pass",
+                              "value": 1995,
+                            },
+                          ],
+                        },
+                        Object {
+                          "player": Object {
+                            "age": "30 years 269 days",
+                            "currentTeam": Object {
+                              "id": 12,
+                              "name": "Manchester United",
+                              "shortName": "Man Utd",
+                              "teamType": "FIRST",
+                            },
+                            "id": 2064,
+                            "info": Object {
+                              "position": "F",
+                              "positionInfo": "Left/Centre/Right Second Striker",
+                              "shirtNum": 10,
+                            },
+                            "name": Object {
+                              "first": "Wayne",
+                              "last": "Rooney",
+                            },
+                            "nationalTeam": Object {
+                              "country": "England",
+                              "demonym": "English",
+                              "isoCode": "GB-ENG",
+                            },
+                          },
+                          "stats": Array [
+                            Object {
+                              "name": "goals",
+                              "value": 201,
+                            },
+                            Object {
+                              "name": "losses",
+                              "value": 91,
+                            },
+                            Object {
+                              "name": "wins",
+                              "value": 280,
+                            },
+                            Object {
+                              "name": "draws",
+                              "value": 90,
+                            },
+                            Object {
+                              "name": "fwd_pass",
+                              "value": 1795,
+                            },
+                            Object {
+                              "name": "goal_assist",
+                              "value": 84,
+                            },
+                            Object {
+                              "name": "appearances",
+                              "value": 461,
+                            },
+                            Object {
+                              "name": "mins_played",
+                              "value": 27056,
+                            },
+                            Object {
+                              "name": "backward_pass",
+                              "value": 1928,
+                            },
+                          ],
+                        },
+                        Object {
+                          "player": Object {
+                            "age": "31 years 294 days",
+                            "currentTeam": Object {
+                              "id": 1,
+                              "name": "Arsenal",
+                              "shortName": "Arsenal",
+                              "teamType": "FIRST",
+                            },
+                            "id": 4246,
+                            "info": Object {
+                              "position": "D",
+                              "positionInfo": "Centre Central Defender",
+                              "shirtNum": 4,
+                            },
+                            "name": Object {
+                              "first": "Per",
+                              "last": "Mertesacker",
+                            },
+                            "nationalTeam": Object {
+                              "country": "Germany",
+                              "demonym": "German",
+                              "isoCode": "DE",
+                            },
+                          },
+                          "stats": Array [
+                            Object {
+                              "name": "goals",
+                              "value": 8,
+                            },
+                            Object {
+                              "name": "losses",
+                              "value": 45,
+                            },
+                            Object {
+                              "name": "wins",
+                              "value": 117,
+                            },
+                            Object {
+                              "name": "draws",
+                              "value": 41,
+                            },
+                            Object {
+                              "name": "fwd_pass",
+                              "value": 4257,
+                            },
+                            Object {
+                              "name": "appearances",
+                              "value": 187,
+                            },
+                            Object {
+                              "name": "mins_played",
+                              "value": 16531,
+                            },
+                            Object {
+                              "name": "backward_pass",
+                              "value": 535,
+                            },
+                          ],
+                        },
+                        Object {
+                          "player": Object {
+                            "age": "25 years 149 days",
+                            "currentTeam": Object {
+                              "id": 26,
+                              "name": "Leicester City",
+                              "shortName": "Leicester",
+                              "teamType": "FIRST",
+                            },
+                            "id": 8983,
+                            "info": Object {
+                              "position": "M",
+                              "positionInfo": "Left/Right Winger",
+                              "shirtNum": 26,
+                            },
+                            "name": Object {
+                              "first": "Riyad",
+                              "last": "Mahrez",
+                            },
+                            "nationalTeam": Object {
+                              "country": "Algeria",
+                              "demonym": "Algerian",
+                              "isoCode": "DZ",
+                            },
+                          },
+                          "stats": Array [
+                            Object {
+                              "name": "goals",
+                              "value": 22,
+                            },
+                            Object {
+                              "name": "losses",
+                              "value": 23,
+                            },
+                            Object {
+                              "name": "wins",
+                              "value": 35,
+                            },
+                            Object {
+                              "name": "draws",
+                              "value": 21,
+                            },
+                            Object {
+                              "name": "fwd_pass",
+                              "value": 687,
+                            },
+                            Object {
+                              "name": "goal_assist",
+                              "value": 14,
+                            },
+                            Object {
+                              "name": "appearances",
+                              "value": 71,
+                            },
+                            Object {
+                              "name": "mins_played",
+                              "value": 5368,
+                            },
+                            Object {
+                              "name": "backward_pass",
+                              "value": 323,
+                            },
+                          ],
+                        },
+                      ]
+        }
+/>,
+      "className": "app",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "data": Array [
+          Object {
+            "player": Object {
+              "age": "27 years 139 days",
+              "currentTeam": Object {
+                "id": 21,
+                "name": "Tottenham Hotspur",
+                "shortName": "Spurs",
+                "teamType": "FIRST",
+              },
+              "id": 4916,
+              "info": Object {
+                "position": "D",
+                "positionInfo": "Centre/Right Central Defender",
+                "shirtNum": 4,
+              },
+              "name": Object {
+                "first": "Toby",
+                "last": "Alderweireld",
+              },
+              "nationalTeam": Object {
+                "country": "Belgium",
+                "demonym": "Belgian",
+                "isoCode": "BE",
+              },
+            },
+            "stats": Array [
+              Object {
+                "name": "goals",
+                "value": 5,
+              },
+              Object {
+                "name": "losses",
+                "value": 20,
+              },
+              Object {
+                "name": "wins",
+                "value": 48,
+              },
+              Object {
+                "name": "draws",
+                "value": 23,
+              },
+              Object {
+                "name": "fwd_pass",
+                "value": 1533,
+              },
+              Object {
+                "name": "goal_assist",
+                "value": 2,
+              },
+              Object {
+                "name": "appearances",
+                "value": 80,
+              },
+              Object {
+                "name": "mins_played",
+                "value": 6953,
+              },
+              Object {
+                "name": "backward_pass",
+                "value": 308,
+              },
+            ],
+          },
+          Object {
+            "player": Object {
+              "age": "33 years 67 days",
+              "currentTeam": Object {
+                "id": 11,
+                "name": "Manchester City",
+                "shortName": "Man City",
+                "teamType": "FIRST",
+              },
+              "id": 4148,
+              "info": Object {
+                "position": "M",
+                "positionInfo": "Centre Defensive Midfielder",
+                "shirtNum": 42,
+              },
+              "name": Object {
+                "first": "Yaya",
+                "last": "Touré",
+              },
+              "nationalTeam": Object {
+                "country": "Cote D'Ivoire",
+                "demonym": "Ivorian",
+                "isoCode": "CI",
+              },
+            },
+            "stats": Array [
+              Object {
+                "name": "goals",
+                "value": 65,
+              },
+              Object {
+                "name": "losses",
+                "value": 49,
+              },
+              Object {
+                "name": "wins",
+                "value": 149,
+              },
+              Object {
+                "name": "draws",
+                "value": 35,
+              },
+              Object {
+                "name": "fwd_pass",
+                "value": 4491,
+              },
+              Object {
+                "name": "goal_assist",
+                "value": 35,
+              },
+              Object {
+                "name": "appearances",
+                "value": 232,
+              },
+              Object {
+                "name": "mins_played",
+                "value": 18919,
+              },
+              Object {
+                "name": "backward_pass",
+                "value": 1995,
+              },
+            ],
+          },
+          Object {
+            "player": Object {
+              "age": "30 years 269 days",
+              "currentTeam": Object {
+                "id": 12,
+                "name": "Manchester United",
+                "shortName": "Man Utd",
+                "teamType": "FIRST",
+              },
+              "id": 2064,
+              "info": Object {
+                "position": "F",
+                "positionInfo": "Left/Centre/Right Second Striker",
+                "shirtNum": 10,
+              },
+              "name": Object {
+                "first": "Wayne",
+                "last": "Rooney",
+              },
+              "nationalTeam": Object {
+                "country": "England",
+                "demonym": "English",
+                "isoCode": "GB-ENG",
+              },
+            },
+            "stats": Array [
+              Object {
+                "name": "goals",
+                "value": 201,
+              },
+              Object {
+                "name": "losses",
+                "value": 91,
+              },
+              Object {
+                "name": "wins",
+                "value": 280,
+              },
+              Object {
+                "name": "draws",
+                "value": 90,
+              },
+              Object {
+                "name": "fwd_pass",
+                "value": 1795,
+              },
+              Object {
+                "name": "goal_assist",
+                "value": 84,
+              },
+              Object {
+                "name": "appearances",
+                "value": 461,
+              },
+              Object {
+                "name": "mins_played",
+                "value": 27056,
+              },
+              Object {
+                "name": "backward_pass",
+                "value": 1928,
+              },
+            ],
+          },
+          Object {
+            "player": Object {
+              "age": "31 years 294 days",
+              "currentTeam": Object {
+                "id": 1,
+                "name": "Arsenal",
+                "shortName": "Arsenal",
+                "teamType": "FIRST",
+              },
+              "id": 4246,
+              "info": Object {
+                "position": "D",
+                "positionInfo": "Centre Central Defender",
+                "shirtNum": 4,
+              },
+              "name": Object {
+                "first": "Per",
+                "last": "Mertesacker",
+              },
+              "nationalTeam": Object {
+                "country": "Germany",
+                "demonym": "German",
+                "isoCode": "DE",
+              },
+            },
+            "stats": Array [
+              Object {
+                "name": "goals",
+                "value": 8,
+              },
+              Object {
+                "name": "losses",
+                "value": 45,
+              },
+              Object {
+                "name": "wins",
+                "value": 117,
+              },
+              Object {
+                "name": "draws",
+                "value": 41,
+              },
+              Object {
+                "name": "fwd_pass",
+                "value": 4257,
+              },
+              Object {
+                "name": "appearances",
+                "value": 187,
+              },
+              Object {
+                "name": "mins_played",
+                "value": 16531,
+              },
+              Object {
+                "name": "backward_pass",
+                "value": 535,
+              },
+            ],
+          },
+          Object {
+            "player": Object {
+              "age": "25 years 149 days",
+              "currentTeam": Object {
+                "id": 26,
+                "name": "Leicester City",
+                "shortName": "Leicester",
+                "teamType": "FIRST",
+              },
+              "id": 8983,
+              "info": Object {
+                "position": "M",
+                "positionInfo": "Left/Right Winger",
+                "shirtNum": 26,
+              },
+              "name": Object {
+                "first": "Riyad",
+                "last": "Mahrez",
+              },
+              "nationalTeam": Object {
+                "country": "Algeria",
+                "demonym": "Algerian",
+                "isoCode": "DZ",
+              },
+            },
+            "stats": Array [
+              Object {
+                "name": "goals",
+                "value": 22,
+              },
+              Object {
+                "name": "losses",
+                "value": 23,
+              },
+              Object {
+                "name": "wins",
+                "value": 35,
+              },
+              Object {
+                "name": "draws",
+                "value": 21,
+              },
+              Object {
+                "name": "fwd_pass",
+                "value": 687,
+              },
+              Object {
+                "name": "goal_assist",
+                "value": 14,
+              },
+              Object {
+                "name": "appearances",
+                "value": 71,
+              },
+              Object {
+                "name": "mins_played",
+                "value": 5368,
+              },
+              Object {
+                "name": "backward_pass",
+                "value": 323,
+              },
+            ],
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <DropDown
+          data={
+                    Array [
+                              Object {
+                                "player": Object {
+                                  "age": "27 years 139 days",
+                                  "currentTeam": Object {
+                                    "id": 21,
+                                    "name": "Tottenham Hotspur",
+                                    "shortName": "Spurs",
+                                    "teamType": "FIRST",
+                                  },
+                                  "id": 4916,
+                                  "info": Object {
+                                    "position": "D",
+                                    "positionInfo": "Centre/Right Central Defender",
+                                    "shirtNum": 4,
+                                  },
+                                  "name": Object {
+                                    "first": "Toby",
+                                    "last": "Alderweireld",
+                                  },
+                                  "nationalTeam": Object {
+                                    "country": "Belgium",
+                                    "demonym": "Belgian",
+                                    "isoCode": "BE",
+                                  },
+                                },
+                                "stats": Array [
+                                  Object {
+                                    "name": "goals",
+                                    "value": 5,
+                                  },
+                                  Object {
+                                    "name": "losses",
+                                    "value": 20,
+                                  },
+                                  Object {
+                                    "name": "wins",
+                                    "value": 48,
+                                  },
+                                  Object {
+                                    "name": "draws",
+                                    "value": 23,
+                                  },
+                                  Object {
+                                    "name": "fwd_pass",
+                                    "value": 1533,
+                                  },
+                                  Object {
+                                    "name": "goal_assist",
+                                    "value": 2,
+                                  },
+                                  Object {
+                                    "name": "appearances",
+                                    "value": 80,
+                                  },
+                                  Object {
+                                    "name": "mins_played",
+                                    "value": 6953,
+                                  },
+                                  Object {
+                                    "name": "backward_pass",
+                                    "value": 308,
+                                  },
+                                ],
+                              },
+                              Object {
+                                "player": Object {
+                                  "age": "33 years 67 days",
+                                  "currentTeam": Object {
+                                    "id": 11,
+                                    "name": "Manchester City",
+                                    "shortName": "Man City",
+                                    "teamType": "FIRST",
+                                  },
+                                  "id": 4148,
+                                  "info": Object {
+                                    "position": "M",
+                                    "positionInfo": "Centre Defensive Midfielder",
+                                    "shirtNum": 42,
+                                  },
+                                  "name": Object {
+                                    "first": "Yaya",
+                                    "last": "Touré",
+                                  },
+                                  "nationalTeam": Object {
+                                    "country": "Cote D'Ivoire",
+                                    "demonym": "Ivorian",
+                                    "isoCode": "CI",
+                                  },
+                                },
+                                "stats": Array [
+                                  Object {
+                                    "name": "goals",
+                                    "value": 65,
+                                  },
+                                  Object {
+                                    "name": "losses",
+                                    "value": 49,
+                                  },
+                                  Object {
+                                    "name": "wins",
+                                    "value": 149,
+                                  },
+                                  Object {
+                                    "name": "draws",
+                                    "value": 35,
+                                  },
+                                  Object {
+                                    "name": "fwd_pass",
+                                    "value": 4491,
+                                  },
+                                  Object {
+                                    "name": "goal_assist",
+                                    "value": 35,
+                                  },
+                                  Object {
+                                    "name": "appearances",
+                                    "value": 232,
+                                  },
+                                  Object {
+                                    "name": "mins_played",
+                                    "value": 18919,
+                                  },
+                                  Object {
+                                    "name": "backward_pass",
+                                    "value": 1995,
+                                  },
+                                ],
+                              },
+                              Object {
+                                "player": Object {
+                                  "age": "30 years 269 days",
+                                  "currentTeam": Object {
+                                    "id": 12,
+                                    "name": "Manchester United",
+                                    "shortName": "Man Utd",
+                                    "teamType": "FIRST",
+                                  },
+                                  "id": 2064,
+                                  "info": Object {
+                                    "position": "F",
+                                    "positionInfo": "Left/Centre/Right Second Striker",
+                                    "shirtNum": 10,
+                                  },
+                                  "name": Object {
+                                    "first": "Wayne",
+                                    "last": "Rooney",
+                                  },
+                                  "nationalTeam": Object {
+                                    "country": "England",
+                                    "demonym": "English",
+                                    "isoCode": "GB-ENG",
+                                  },
+                                },
+                                "stats": Array [
+                                  Object {
+                                    "name": "goals",
+                                    "value": 201,
+                                  },
+                                  Object {
+                                    "name": "losses",
+                                    "value": 91,
+                                  },
+                                  Object {
+                                    "name": "wins",
+                                    "value": 280,
+                                  },
+                                  Object {
+                                    "name": "draws",
+                                    "value": 90,
+                                  },
+                                  Object {
+                                    "name": "fwd_pass",
+                                    "value": 1795,
+                                  },
+                                  Object {
+                                    "name": "goal_assist",
+                                    "value": 84,
+                                  },
+                                  Object {
+                                    "name": "appearances",
+                                    "value": 461,
+                                  },
+                                  Object {
+                                    "name": "mins_played",
+                                    "value": 27056,
+                                  },
+                                  Object {
+                                    "name": "backward_pass",
+                                    "value": 1928,
+                                  },
+                                ],
+                              },
+                              Object {
+                                "player": Object {
+                                  "age": "31 years 294 days",
+                                  "currentTeam": Object {
+                                    "id": 1,
+                                    "name": "Arsenal",
+                                    "shortName": "Arsenal",
+                                    "teamType": "FIRST",
+                                  },
+                                  "id": 4246,
+                                  "info": Object {
+                                    "position": "D",
+                                    "positionInfo": "Centre Central Defender",
+                                    "shirtNum": 4,
+                                  },
+                                  "name": Object {
+                                    "first": "Per",
+                                    "last": "Mertesacker",
+                                  },
+                                  "nationalTeam": Object {
+                                    "country": "Germany",
+                                    "demonym": "German",
+                                    "isoCode": "DE",
+                                  },
+                                },
+                                "stats": Array [
+                                  Object {
+                                    "name": "goals",
+                                    "value": 8,
+                                  },
+                                  Object {
+                                    "name": "losses",
+                                    "value": 45,
+                                  },
+                                  Object {
+                                    "name": "wins",
+                                    "value": 117,
+                                  },
+                                  Object {
+                                    "name": "draws",
+                                    "value": 41,
+                                  },
+                                  Object {
+                                    "name": "fwd_pass",
+                                    "value": 4257,
+                                  },
+                                  Object {
+                                    "name": "appearances",
+                                    "value": 187,
+                                  },
+                                  Object {
+                                    "name": "mins_played",
+                                    "value": 16531,
+                                  },
+                                  Object {
+                                    "name": "backward_pass",
+                                    "value": 535,
+                                  },
+                                ],
+                              },
+                              Object {
+                                "player": Object {
+                                  "age": "25 years 149 days",
+                                  "currentTeam": Object {
+                                    "id": 26,
+                                    "name": "Leicester City",
+                                    "shortName": "Leicester",
+                                    "teamType": "FIRST",
+                                  },
+                                  "id": 8983,
+                                  "info": Object {
+                                    "position": "M",
+                                    "positionInfo": "Left/Right Winger",
+                                    "shirtNum": 26,
+                                  },
+                                  "name": Object {
+                                    "first": "Riyad",
+                                    "last": "Mahrez",
+                                  },
+                                  "nationalTeam": Object {
+                                    "country": "Algeria",
+                                    "demonym": "Algerian",
+                                    "isoCode": "DZ",
+                                  },
+                                },
+                                "stats": Array [
+                                  Object {
+                                    "name": "goals",
+                                    "value": 22,
+                                  },
+                                  Object {
+                                    "name": "losses",
+                                    "value": 23,
+                                  },
+                                  Object {
+                                    "name": "wins",
+                                    "value": 35,
+                                  },
+                                  Object {
+                                    "name": "draws",
+                                    "value": 21,
+                                  },
+                                  Object {
+                                    "name": "fwd_pass",
+                                    "value": 687,
+                                  },
+                                  Object {
+                                    "name": "goal_assist",
+                                    "value": 14,
+                                  },
+                                  Object {
+                                    "name": "appearances",
+                                    "value": 71,
+                                  },
+                                  Object {
+                                    "name": "mins_played",
+                                    "value": 5368,
+                                  },
+                                  Object {
+                                    "name": "backward_pass",
+                                    "value": 323,
+                                  },
+                                ],
+                              },
+                            ]
+          }
+/>,
+        "className": "app",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "data": Array [
+            Object {
+              "player": Object {
+                "age": "27 years 139 days",
+                "currentTeam": Object {
+                  "id": 21,
+                  "name": "Tottenham Hotspur",
+                  "shortName": "Spurs",
+                  "teamType": "FIRST",
+                },
+                "id": 4916,
+                "info": Object {
+                  "position": "D",
+                  "positionInfo": "Centre/Right Central Defender",
+                  "shirtNum": 4,
+                },
+                "name": Object {
+                  "first": "Toby",
+                  "last": "Alderweireld",
+                },
+                "nationalTeam": Object {
+                  "country": "Belgium",
+                  "demonym": "Belgian",
+                  "isoCode": "BE",
+                },
+              },
+              "stats": Array [
+                Object {
+                  "name": "goals",
+                  "value": 5,
+                },
+                Object {
+                  "name": "losses",
+                  "value": 20,
+                },
+                Object {
+                  "name": "wins",
+                  "value": 48,
+                },
+                Object {
+                  "name": "draws",
+                  "value": 23,
+                },
+                Object {
+                  "name": "fwd_pass",
+                  "value": 1533,
+                },
+                Object {
+                  "name": "goal_assist",
+                  "value": 2,
+                },
+                Object {
+                  "name": "appearances",
+                  "value": 80,
+                },
+                Object {
+                  "name": "mins_played",
+                  "value": 6953,
+                },
+                Object {
+                  "name": "backward_pass",
+                  "value": 308,
+                },
+              ],
+            },
+            Object {
+              "player": Object {
+                "age": "33 years 67 days",
+                "currentTeam": Object {
+                  "id": 11,
+                  "name": "Manchester City",
+                  "shortName": "Man City",
+                  "teamType": "FIRST",
+                },
+                "id": 4148,
+                "info": Object {
+                  "position": "M",
+                  "positionInfo": "Centre Defensive Midfielder",
+                  "shirtNum": 42,
+                },
+                "name": Object {
+                  "first": "Yaya",
+                  "last": "Touré",
+                },
+                "nationalTeam": Object {
+                  "country": "Cote D'Ivoire",
+                  "demonym": "Ivorian",
+                  "isoCode": "CI",
+                },
+              },
+              "stats": Array [
+                Object {
+                  "name": "goals",
+                  "value": 65,
+                },
+                Object {
+                  "name": "losses",
+                  "value": 49,
+                },
+                Object {
+                  "name": "wins",
+                  "value": 149,
+                },
+                Object {
+                  "name": "draws",
+                  "value": 35,
+                },
+                Object {
+                  "name": "fwd_pass",
+                  "value": 4491,
+                },
+                Object {
+                  "name": "goal_assist",
+                  "value": 35,
+                },
+                Object {
+                  "name": "appearances",
+                  "value": 232,
+                },
+                Object {
+                  "name": "mins_played",
+                  "value": 18919,
+                },
+                Object {
+                  "name": "backward_pass",
+                  "value": 1995,
+                },
+              ],
+            },
+            Object {
+              "player": Object {
+                "age": "30 years 269 days",
+                "currentTeam": Object {
+                  "id": 12,
+                  "name": "Manchester United",
+                  "shortName": "Man Utd",
+                  "teamType": "FIRST",
+                },
+                "id": 2064,
+                "info": Object {
+                  "position": "F",
+                  "positionInfo": "Left/Centre/Right Second Striker",
+                  "shirtNum": 10,
+                },
+                "name": Object {
+                  "first": "Wayne",
+                  "last": "Rooney",
+                },
+                "nationalTeam": Object {
+                  "country": "England",
+                  "demonym": "English",
+                  "isoCode": "GB-ENG",
+                },
+              },
+              "stats": Array [
+                Object {
+                  "name": "goals",
+                  "value": 201,
+                },
+                Object {
+                  "name": "losses",
+                  "value": 91,
+                },
+                Object {
+                  "name": "wins",
+                  "value": 280,
+                },
+                Object {
+                  "name": "draws",
+                  "value": 90,
+                },
+                Object {
+                  "name": "fwd_pass",
+                  "value": 1795,
+                },
+                Object {
+                  "name": "goal_assist",
+                  "value": 84,
+                },
+                Object {
+                  "name": "appearances",
+                  "value": 461,
+                },
+                Object {
+                  "name": "mins_played",
+                  "value": 27056,
+                },
+                Object {
+                  "name": "backward_pass",
+                  "value": 1928,
+                },
+              ],
+            },
+            Object {
+              "player": Object {
+                "age": "31 years 294 days",
+                "currentTeam": Object {
+                  "id": 1,
+                  "name": "Arsenal",
+                  "shortName": "Arsenal",
+                  "teamType": "FIRST",
+                },
+                "id": 4246,
+                "info": Object {
+                  "position": "D",
+                  "positionInfo": "Centre Central Defender",
+                  "shirtNum": 4,
+                },
+                "name": Object {
+                  "first": "Per",
+                  "last": "Mertesacker",
+                },
+                "nationalTeam": Object {
+                  "country": "Germany",
+                  "demonym": "German",
+                  "isoCode": "DE",
+                },
+              },
+              "stats": Array [
+                Object {
+                  "name": "goals",
+                  "value": 8,
+                },
+                Object {
+                  "name": "losses",
+                  "value": 45,
+                },
+                Object {
+                  "name": "wins",
+                  "value": 117,
+                },
+                Object {
+                  "name": "draws",
+                  "value": 41,
+                },
+                Object {
+                  "name": "fwd_pass",
+                  "value": 4257,
+                },
+                Object {
+                  "name": "appearances",
+                  "value": 187,
+                },
+                Object {
+                  "name": "mins_played",
+                  "value": 16531,
+                },
+                Object {
+                  "name": "backward_pass",
+                  "value": 535,
+                },
+              ],
+            },
+            Object {
+              "player": Object {
+                "age": "25 years 149 days",
+                "currentTeam": Object {
+                  "id": 26,
+                  "name": "Leicester City",
+                  "shortName": "Leicester",
+                  "teamType": "FIRST",
+                },
+                "id": 8983,
+                "info": Object {
+                  "position": "M",
+                  "positionInfo": "Left/Right Winger",
+                  "shirtNum": 26,
+                },
+                "name": Object {
+                  "first": "Riyad",
+                  "last": "Mahrez",
+                },
+                "nationalTeam": Object {
+                  "country": "Algeria",
+                  "demonym": "Algerian",
+                  "isoCode": "DZ",
+                },
+              },
+              "stats": Array [
+                Object {
+                  "name": "goals",
+                  "value": 22,
+                },
+                Object {
+                  "name": "losses",
+                  "value": 23,
+                },
+                Object {
+                  "name": "wins",
+                  "value": 35,
+                },
+                Object {
+                  "name": "draws",
+                  "value": 21,
+                },
+                Object {
+                  "name": "fwd_pass",
+                  "value": 687,
+                },
+                Object {
+                  "name": "goal_assist",
+                  "value": 14,
+                },
+                Object {
+                  "name": "appearances",
+                  "value": 71,
+                },
+                Object {
+                  "name": "mins_played",
+                  "value": 5368,
+                },
+                Object {
+                  "name": "backward_pass",
+                  "value": 323,
+                },
+              ],
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

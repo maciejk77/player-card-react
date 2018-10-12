@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DropDown from './components/dropdown';
+import DropDown from './components/Dropdown';
 import { players } from './data/data.json';
 import './app.css';
 

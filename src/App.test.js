@@ -1,9 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
 import App from './App';
+import Dropdown from './components/Dropdown';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe('<App />', () => {
+  let wrapper;
+  beforeEach(() => {
+    wrapper = shallow(<App />);
+  });
+
+  it('renders an <App /> component', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('renders <Dropdown /> within', () => {
+    expect(wrapper.find(Dropdown).length).toEqual(1);
+  })
 });
