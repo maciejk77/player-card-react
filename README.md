@@ -18,12 +18,13 @@ This app was rewritten from scratch from the [***earlier version***](https://git
 - images fetched from assets folder using template strings ```e.g. id:4916 => p${id}.png```
 - club badges are created from image sprite and accessible via CSS classess e.g. ```.arsenal {}```
 - used ***.filter***, ***.map***, to get matching player data, ***.reduce*** to remap stats object ```{name: 'goals', value: 5} ==> {'goals': 5, ...}```
+- version on ```master-redux``` branch has got state management implemented with ***Redux*** (not deployed to Heroku)
 
 ### To do / ideas
-- create seperate branches where data will be put on Express, use Redux to manage state.
+- create seperate branch where data will be put on Express server
 - fix custom 'chevron down' and menu on select
 - try to add the gray custom shapes as per requested output below (behind player image)
-- try to add some tests
+- add some tests
 
 ### Screenshot
 
