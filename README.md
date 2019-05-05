@@ -19,6 +19,7 @@ This app was rewritten from scratch from the [***earlier version***](https://git
 - club badges are created from image sprite and accessible via CSS classess e.g. ```.arsenal {}```
 - used ***.filter***, ***.map***, to get matching player data, ***.reduce*** to remap stats object ```{name: 'goals', value: 5} ==> {'goals': 5, ...}```
 - version on ```master-redux``` branch has got state management implemented with ***Redux*** (not deployed to Heroku)
+- version on ```master-hooks``` branch have ```master``` component Dropdown.js refacored to ***React hooks***
 
 ### To do / ideas
 - create seperate branch where data will be put on Express server
