@@ -10,7 +10,8 @@
     "react-redux": "^6.0.0",
     "react-scripts": "1.1.4",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -19,13 +20,12 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
-    "test": "react-scripts test --env=jsdom --verbose",
+    "test": "react-scripts test --verbose",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
-    "jest": "^23.6.0",
     "jest-enzyme": "^7.0.0",
     "react-test-renderer": "^16.5.2"
   }
